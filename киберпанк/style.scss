@@ -141,3 +141,49 @@ font-size: 30px;
     }
 }
 }
+.about h2{
+    font-weight: 400;
+font-size: 62px;
+color: var(--primary-text-color);
+}
+.about span{
+    font-weight: 700;
+font-size: 18px;
+line-height: 189%;
+color: var(--text-blue);
+}
+.about p {
+    font-weight: 400;
+color: var(--secondary-text-color);
+margin-bottom: 70px;
+}
+.about__images{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) 2fr;
+    gap: 8%;
+    @media (max-width:980px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5%;
+    }
+    @media (max-width:720px) {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2%;
+    }
+}
+.about__image-1-2{
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 8%;
+ @media (max-width:980px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+@media (max-width:720px) {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 2%;
+}
+}

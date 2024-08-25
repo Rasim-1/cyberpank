@@ -171,39 +171,39 @@ body {
 .about__images {
   display: grid;
   grid-template-columns: repeat(2, 1fr) 2fr;
-  gap: 10%;
+  gap: 8%;
 }
 @media (max-width: 980px) {
   .about__images {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 8%;
+    gap: 5%;
   }
 }
 @media (max-width: 720px) {
   .about__images {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5%;
+    gap: 2%;
   }
 }
 
 .about__image-1-2 {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10%;
+  gap: 8%;
 }
 @media (max-width: 980px) {
   .about__image-1-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8%;
+    gap: 5%;
   }
 }
 @media (max-width: 720px) {
   .about__image-1-2 {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5%;
+    gap: 2%;
   }
 }/*# sourceMappingURL=style.css.map */
